@@ -1,4 +1,4 @@
-Router.route('/', () => {
+Router.route('/', function () {
   let page = (
     <Layout>
       <Home/>
